@@ -18,7 +18,7 @@ return {
       end
 
       for _, v in ipairs(overrideServers) do
-        opts.ensure_installed[revMap[v]] = nil
+        table.remove(opts.ensure_installed, revMap[v])
       end
     end,
   },
