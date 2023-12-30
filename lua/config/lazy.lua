@@ -13,9 +13,6 @@ require("lazy").setup {
     -- AstroCommunity: import any community modules here
     -- TODO: Remove branch v4 on release
     { "AstroNvim/astrocommunity", branch = "v4" },
-    -- { import = "astrocommunity.pack.lua" },
-    -- import/override with your plugins
-    { import = "plugins" },
     { import = "astrocommunity.colorscheme.gruvbox-baby" },
     { import = "astrocommunity.pack.rust" },
     { import = "astrocommunity.pack.python" },
@@ -23,6 +20,8 @@ require("lazy").setup {
     { import = "astrocommunity.pack.cmake" },
     { import = "astrocommunity.pack.lua" },
     { import = "astrocommunity.git.neogit" },
+    -- import/override with your plugins
+    { import = "plugins" },
   },
   install = { colorscheme = { "astrodark", "habamax" } },
   performance = {
