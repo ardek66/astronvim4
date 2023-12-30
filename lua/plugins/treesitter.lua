@@ -8,6 +8,7 @@ return {
       "rust",
       "nim",
       "nim_format_string",
+      "fennel",
     })
   end,
 }
