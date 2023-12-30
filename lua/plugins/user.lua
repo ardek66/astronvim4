@@ -1,7 +1,7 @@
 -- You can also add new plugins here as well using the lazy syntax:
 return {
   -- "andweeb/presence.nvim",
-  "Olical/nfnl",
+  { "Olical/nfnl", commit = "aba4b48", ft = "fennel" },
   {
     "davidgranstrom/scnvim",
     config = function()

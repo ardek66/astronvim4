@@ -1,7 +1,2 @@
-return {
-  "AstroNvim/astroui",
-  ---@type AstroUIOpts
-  opts = {
-    colorscheme = "gruvbox-baby", -- change colorscheme
-  },
-}
+-- [nfnl] Compiled from lua/plugins/colorscheme.fnl by https://github.com/Olical/nfnl, do not edit.
+return {"AstroNvim/astroui", {opts = {colorscheme = "gruvbox-baby"}}}
