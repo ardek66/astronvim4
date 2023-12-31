@@ -1,4 +1,4 @@
--- [nfnl] Compiled from lua/plugins/mason.new.fnl by https://github.com/Olical/nfnl, do not edit.
+-- [nfnl] Compiled from lua/plugins/mason.fnl by https://github.com/Olical/nfnl, do not edit.
 local astrocore = require("astrocore")
 local function _1_(_, opts)
   local overrideServers = {"clangd"}
@@ -18,6 +18,6 @@ local function _1_(_, opts)
   for _0, blocked in ipairs(overrideServers) do
     table.remove(opts.ensure_installed, rev[blocked])
   end
-  return nil
+  return opts
 end
 return {{"williamboman/mason-lspconfig.nvim", opts = _1_}, {"jay-babu/mason-null-ls.nvim"}, {"jay-babu/mason-nvim-dap.nvim"}}

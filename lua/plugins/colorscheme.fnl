@@ -1,1 +1,1 @@
-{ 1 :AstroNvim/Astroui :opts {:colorscheme "catppuccin-mocha"} } 
+{1 :AstroNvim/Astroui :opts {:colorscheme :catppuccin-mocha}}
