@@ -1,1 +1,1 @@
-{ 1 :AstroNvim/Astroui :opts {:colorscheme "gruvbox-baby"} } 
+{ 1 :AstroNvim/Astroui :opts {:colorscheme "catppuccin-mocha"} } 

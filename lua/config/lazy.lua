@@ -13,7 +13,7 @@ require("lazy").setup {
     -- AstroCommunity: import any community modules here
     -- TODO: Remove branch v4 on release
     { "AstroNvim/astrocommunity", branch = "v4" },
-    { import = "astrocommunity.colorscheme.gruvbox-baby" },
+    { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.pack.rust" },
     { import = "astrocommunity.pack.python" },
     { import = "astrocommunity.pack.cpp" },
