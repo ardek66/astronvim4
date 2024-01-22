@@ -2,7 +2,8 @@
 return {
   -- "andweeb/presence.nvim",
   "direnv/direnv.vim",
-  { "Olical/nfnl", commit = "aba4b48", ft = "fennel" },
+  { "Olical/nfnl", ft = "fennel" },
+  "Olical/conjure",
   {
     "davidgranstrom/scnvim",
     config = function()
