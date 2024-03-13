@@ -4,7 +4,7 @@
           (local overrideServers [:clangd])
           (set opts.ensure_installed
                (astrocore.list_insert_unique opts.ensure_installed
-                                             :fennel_language_server))
+                                             [:fennel_language_server]))
           (let [rev (collect [k v (ipairs opts.ensure_installed)]
                       (values v k))]
             (each [_ blocked (ipairs overrideServers)]

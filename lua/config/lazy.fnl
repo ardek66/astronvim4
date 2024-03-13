@@ -20,6 +20,7 @@
                          {:import :astrocommunity.pack.cpp}
                          {:import :astrocommunity.pack.cmake}
                          {:import :astrocommunity.pack.lua}
+                         {:import :astrocommunity.pack.html-css}
                          {:import :astrocommunity.git.neogit}
                          {:import :astrocommunity.editing-support.rainbow-delimiters-nvim}
                          {:import :astrocommunity.editing-support.ultimate-autopair-nvim}

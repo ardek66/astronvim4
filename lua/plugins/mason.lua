@@ -2,7 +2,7 @@
 local astrocore = require("astrocore")
 local function _1_(_, opts)
   local overrideServers = {"clangd"}
-  opts.ensure_installed = astrocore.list_insert_unique(opts.ensure_installed, "fennel_language_server")
+  opts.ensure_installed = astrocore.list_insert_unique(opts.ensure_installed, {"fennel_language_server"})
   local rev
   do
     local tbl_14_auto = {}
